@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#pipeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.job {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job h2 {
+  margin-top: 0;
+}
+
+.steps {
+  margin: 10px 0;
+}
+
+.step {
+  background: #e9ecef;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
